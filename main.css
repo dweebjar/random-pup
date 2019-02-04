@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Noto Sans', sans-serif;
+}
+
+section {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+h1 {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    margin: 0;
+    height: 70px;
+    padding-top: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+button {
+    margin-top: 30px;
+    font-size: 1.5em;
+    border: none;
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    border-radius: 5px;
+}
+
+button:focus {
+    outline: none;
+}
+
+#dogPic {
+    height: 400px;
+    width: auto;
+}
+
+img {
+    /* border: solid 5px #1e73fc; */
+    border-radius: 5px;
+    height: 400px;
+    width: auto;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    text-align: center;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.fab {
+    margin-right: 4px;
+    margin-left: 4px;
+}
